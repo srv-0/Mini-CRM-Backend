@@ -129,6 +129,7 @@ curl -X POST http://localhost:3000/tasks \
   -d '{"title":"Fix Database","customerId":1,"assignedToId":2}'
 ```
 ## Project Structure
+```
 
 src/
 ├── auth/          # Login, Register, JWT Strategy, Guards
@@ -139,6 +140,7 @@ src/
 ├── main.ts        # Entry point (Swagger setup, Validation Pipes)
 └── app.module.ts  # Root Module
 
+```
 ## Docker Deployment
 The project includes a `docker-compose.yml` for easy local database setup.
 
