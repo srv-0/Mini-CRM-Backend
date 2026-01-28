@@ -63,7 +63,7 @@ Create a `.env` file in the root directory:
 DATABASE_URL="postgresql://admin:securepassword@localhost:5433/mini_crm?schema=public"
 
 # JWT Secrets
-JWT_SECRET="secret_key_123"
+JWT_SECRET="secret_key"
 JWT_EXPIRES_IN="1d"
 ```
 
